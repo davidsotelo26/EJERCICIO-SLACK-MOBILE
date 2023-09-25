@@ -1,0 +1,23 @@
+
+//Utilities
+@import "../styles/utilities/color";
+
+//Base
+@import "../styles/base/reset";
+
+//Blocks
+@import "../styles/blocks/main";
+
+
+
+
+.bold{
+    font-weight: bold;
+}
+.blanco{
+    color:$blanco;
+}
+
+.esconder{
+    visibility: hidden;
+}

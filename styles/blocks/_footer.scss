@@ -1,0 +1,125 @@
+footer{
+    width: 80vw;
+    height: 300px;
+    padding-left: 8vw;
+    padding-right: 8vw;
+    margin: 0;
+}
+
+
+.footer{
+    &__nav {
+        display:flex;
+        justify-content: space-around;
+    }
+
+    &__menu{
+        padding-top:10px;
+        border-bottom:solid 1px rgb(207, 207, 207);
+    }
+
+    &__legal{
+        padding-top:10px;
+    }
+
+    &__copyright {
+        display:flex;
+        justify-content: space-around;
+        padding-top:10px;
+    }
+}
+
+li{
+    padding-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+h3 {
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+
+.logotiposlackfooter {
+    height: 54px;
+}
+
+.logotipodescargafooter{
+    height: 27px;
+}
+
+.logotiposrrss{
+    display: flex;
+}
+
+.logotiporrssfooter{
+    height: 27px;
+}
+
+@media only screen and (max-width: 375px) {
+    footer{
+        width: 80vw;
+        height: 300px;
+        padding-left: 8vw;
+        padding-right: 8vw;
+        margin: 0;
+    }
+    
+    
+    .footer{
+        &__nav {
+            display:flex;
+            justify-content: space-around;
+        }
+    
+        &__menu{
+            padding-top:10px;
+            border-bottom:solid 1px rgb(207, 207, 207);
+            li{
+                display: none;
+            }
+        }
+        &__nav{
+            display: flex;
+            flex-direction: column;
+
+        }
+    
+        &__legal{
+            display: none;
+        }
+    
+        &__copyright {
+            display:none;
+        }
+    }
+    
+    li{
+        padding-bottom: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+    }
+    
+    h3 {
+        padding-bottom: 10px;
+        font-weight: bold;
+    }
+    
+    .logotiposlackfooter {
+        height: 54px;
+    }
+    
+    .logotipodescargafooter{
+        height: 27px;
+    }
+    
+    .logotiposrrss{
+        display: flex;
+    }
+    
+    .logotiporrssfooter{
+        height: 27px;
+    }
+}
